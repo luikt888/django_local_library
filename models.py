@@ -31,6 +31,7 @@ class Genre(models.Model):
                 violation_error_message = "Genre already exists (case insensitive match)"
             ),
         ]
+
 class Language(models.Model):
     """Model representing a Language (e.g. English, French, Japanese, etc.)"""
     name = models.CharField(max_length=200,
